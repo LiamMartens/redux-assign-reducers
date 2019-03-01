@@ -1,0 +1,29 @@
+{
+  "name": "redux-assign-reducers",
+  "version": "1.0.0",
+  "description": "Merges reducers together like an Object.assign",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepare": "./node_modules/.bin/tsc"
+  },
+  "keywords": [
+    "redux",
+    "reducer"
+  ],
+  "files": [
+    "*.js",
+    "*.ts",
+    "*.md"
+  ],
+  "author": "Liam Martens <liam@freighter.studio>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/redux": "^3.6.0",
+    "redux": "^4.0.1",
+    "typescript": "^3.3.3333"
+  },
+  "peerDependencies": {
+    "@types/redux": "^3.6.0",
+    "redux": "^4.0.1"
+  }
+}
