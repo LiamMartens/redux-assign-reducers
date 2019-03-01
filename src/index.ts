@@ -10,7 +10,7 @@ export const assignReducers = (
     return (state = initialState, action) => {
         const rootResult = root({...state}, action);
         Object.keys(reducers).forEach(key => {
-            rootResult[key] = reducers[key](state, action);
+            rootResult[key] = reducers[key](state[key] || initialState[key], action);
         });
         return rootResult;
     }
