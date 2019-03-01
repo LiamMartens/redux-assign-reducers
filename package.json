@@ -1,6 +1,6 @@
 {
   "name": "redux-assign-reducers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Merges reducers together like an Object.assign",
   "main": "lib/index.js",
   "scripts": {
